@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::out<<"최윤교님이 진호하셨다"<<std::endl;//표준스페이스에 출력
+	std::cout<<"최윤교님이 진호하셨다"<<std::endl;
 	return 0;
 }
 
