@@ -35,12 +35,15 @@ void gotoxy(int x, int y) {
 
 int print_game_screen(int stage_width, int stage_height)
 {
-    gotoxy(5, 5);
-
-    std::cout << "^^";
-
-
-
+    gotoxy(15, 15);
+    for (int i = 15;i <= stage_width + 14;i++) {
+        for (int j = 15;j <= stage_height + 14;j++) {
+            if (i == 15 || i == stage_width + 14 || j == 15 || j == stage_height + 14) {
+                gotoxy(i, j);
+                std::cout << "^^";
+            }
+        }
+    }
     return 0;
 }
 
@@ -54,6 +57,9 @@ int print_introduction_screen()
 
 int main()
 {
+
+    int stage_width = 0;
+    int stage_height = 0;
 
     int game_state = 0;
     int is_game_running = 1;
@@ -87,7 +93,11 @@ int main()
             }
             break;
         case 1:
-            print_game_screen(10, 10);
+            std::cout << "스테이지 가로 길이 입력:";
+            std::cin >> stage_width;
+            std::cout << "스테이지 세로 길이 입력:";
+            std::cin >> stage_height;
+            print_game_screen(stage_width,stage_height);
             key_input = _getch();
         case 2:
             print_introduction_screen();
