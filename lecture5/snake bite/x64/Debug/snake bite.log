@@ -1,4 +1,4 @@
 ﻿  snakebite.cpp
-C:\lecture5\snake bite\snakebite.cpp(31,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\lecture5\snake bite\snakebite.cpp(31,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\lecture5\snake bite\snakebite.cpp(25,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\lecture5\snake bite\snakebite.cpp(25,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
   snake bite.vcxproj -> C:\lecture5\x64\Debug\snake bite.exe
