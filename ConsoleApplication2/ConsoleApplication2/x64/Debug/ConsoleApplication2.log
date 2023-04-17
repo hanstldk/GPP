@@ -1,0 +1,4 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\YUHAN\Downloads\GPP-main\GPP-main\lecture7\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(38,17): warning C4566: 유니버설 문자 이름 '\u2741'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\YUHAN\Downloads\GPP-main\GPP-main\lecture7\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(38,17): warning C4566: 유니버설 문자 이름 '\u25E1'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  ConsoleApplication2.vcxproj -> C:\Users\YUHAN\Downloads\GPP-main\GPP-main\lecture7\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
