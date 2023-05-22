@@ -1,9 +1,17 @@
 #include <iostream>
 #include <vector>
-
+#include <windows.h>
 #include "Object.h"
 #include "Scene.h"
 
+
+
+void GotoXY(int x, int y) {
+    COORD Pos;
+    Pos.X = x;
+    Pos.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
+}
 
 int main()
 {
@@ -52,8 +60,10 @@ int main()
         s1.objList.push_back(obj3);
 
         is_Game_Running = 1;
+        system("cls");
 
         while (is_Game_Running) {
+            GotoXY(0, 0);
             s1.DrawScreenBuf();
         }
   
